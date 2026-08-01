@@ -1,4 +1,8 @@
 <script setup>
+import equilibriumImage from '@/assets/images/image-equilibrium.jpg'
+import avatarImage from '@/assets/images/image-avatar.png'
+import ethereumIcon from '@/assets/images/icon-ethereum.svg'
+import clockIcon from '@/assets/images/icon-clock.svg'
 
 </script>
 
@@ -6,7 +10,7 @@
   <section class="card">
     <div class="card__info">
       <div class="card__coin-image-wrapper">
-        <img class="card__coin-image" src="../assets/images/image-equilibrium.jpg" alt="Ethereum"/>
+        <img class="card__coin-image" :src="equilibriumImage" alt="Ethereum"/>
       </div>
       <h3 class="card__title">Equilibrium #3429</h3>
       <p class="card__description">Our Equilibrium collection promotes balance and calm.</p>
@@ -14,12 +18,12 @@
 
     <div class="card__meta">
       <div class="card__meta-item">
-        <img class="card__meta-icon" src="../assets/images/icon-ethereum.svg" alt="Ethereum"/>
+        <img class="card__meta-icon" :src="ethereumIcon" alt="Ethereum"/>
         <p class="card__price">0.041 ETH</p>
       </div>
 
       <div class="card__meta-item">
-        <img class="card__meta-icon" src="../assets/images/icon-clock.svg" alt="Clock"/>
+        <img class="card__meta-icon" :src="clockIcon" alt="Clock"/>
         <p class="card__time">3 days left</p>
       </div>
     </div>
@@ -27,7 +31,7 @@
     <div class="card__divider"></div>
 
     <div class="card__footer">
-      <img class="card__footer-avatar" src="../assets/images/image-avatar.png" alt="Clock"/>
+      <img class="card__footer-avatar" :src="avatarImage" alt="Clock"/>
       <p class="card__footer-text">Creation of <span class="card__author">John Doe</span></p>
     </div>
   </section>
@@ -87,7 +91,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background-image: url('../assets/images/icon-view.svg');
+  background-image: url('@/assets/images/icon-view.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 48px;
