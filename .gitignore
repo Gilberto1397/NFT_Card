@@ -1,0 +1,7 @@
+# User-specific stuff
+.idea
+
+### Laravel template
+/vendor/
+node_modules/
+npm-debug.log
