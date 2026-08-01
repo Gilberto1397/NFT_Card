@@ -1,4 +1,7 @@
 # NFT_Card
- 
-Card responsivo usando HTML5 e CSS3
-![image](https://user-images.githubusercontent.com/81825952/162575765-6bd0f01a-87fc-41a8-93f8-98a9793dbbde.png)
+
+Este projeto é um treinamento prático inspirado no desafio de NFT Card do Frontend Mentor. A ideia foi reproduzir o layout e o comportamento visual do componente, explorando diferentes abordagens de desenvolvimento.
+
+Inicialmente, o projeto foi construído com HTML, CSS e JavaScript puros, para praticar estruturação de layout, responsividade e estilos. Em seguida, foi recriado em Vue, com foco em componentização, organização do código e uso do framework para montar a interface de forma mais modular.
+
+O objetivo principal foi aprender e comparar essas abordagens na construção de uma interface simples, bonita e responsiva.
